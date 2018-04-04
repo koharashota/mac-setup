@@ -3,7 +3,7 @@
 ### ダウンロード
 
 ```shell
-sh -c "$(curl -fsSL https://github.com/koharashota/mac-setup/master/download.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/koharashota/mac-setup/master/download.sh)"
 ```
 
 ## 諸々インストール
