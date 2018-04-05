@@ -67,6 +67,15 @@ ruby -v
 echo " ------------ END ------------"
 
 #
+# Install java
+#
+echo " ---------- java ---------"
+brew cask install java
+brew install maven
+brew install gradle
+echo " ------------ END ------------"
+
+#
 # Install dotfiles system
 #
 echo " ---------- dotfiles ---------"
