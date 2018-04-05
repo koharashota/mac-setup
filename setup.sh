@@ -25,12 +25,13 @@ echo " ------------ END ------------"
 #
 echo " ------------ fish ------------"
 brew install fish
+brew install ghq
 which -a fish
 echo $pass | sudo -S -- sh -c 'echo '/usr/local/bin/fish' >> /etc/shells'
 chsh -s /usr/local/bin/fish
 # fisherman
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
-fisher bobthefish bass bd nvm peco z
+fisher edc/bass omf/thefuck omf/theme-bobthefish 0rax/fish-bd nvm omf/plugin-peco z yoshiori/fish-peco_select_ghq_repository
 echo " ------------ END ------------"
 
 #
