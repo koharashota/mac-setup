@@ -31,7 +31,7 @@ echo $pass | sudo -S -- sh -c 'echo '/usr/local/bin/fish' >> /etc/shells'
 chsh -s /usr/local/bin/fish
 # fisherman
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
-fisher edc/bass omf/thefuck omf/theme-bobthefish 0rax/fish-bd nvm omf/plugin-peco z yoshiori/fish-peco_select_ghq_repository
+fisher add edc/bass omf/thefuck omf/theme-bobthefish 0rax/fish-bd nvm omf/plugin-peco z yoshiori/fish-peco_select_ghq_repository
 echo " ------------ END ------------"
 
 #
